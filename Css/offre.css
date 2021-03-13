@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    background: #f1f5f8 !important;
+}
+.list li {
+list-style-type: none;
+color: white;
+}
+.social-media{
+    list-style-type: none;
+
+}
+.top-nav{
+    background-color: #F7F7F7;
+}
+.top-nav ul li {
+    color: black;
+    
+}
+.toggler{
+    color: #ce0033;
+}
+@media screen and (max-width: 400px) {
+   .list .social{
+       margin-bottom: 20px;
+       
+   }
+   .clock{
+       margin-top:-10px !important;
+   }
+  .email {
+   text-align: center;
+  }
+  .image-1{
+    height: 380px;
+ 
+    margin-top: 20px !important;
+  }
+  .image-1 img{
+      width: 200%;
+      height: 80vh !important;
+      margin-top: -163px;
+      padding-right: -20px;
+      margin-right: 73px;
+}
+.buttons .btn-simplon{
+    padding-left: 1rem !important;
+}
+.apropos{
+    text-align: center;
+}
+.infos {
+    margin-left: 11px !important;
+}
+.opacity{    height: 92vh !important;}
+.experience{
+    height: 92vh !important;
+    margin-left: 21px !important;
+}
+} 
+
+/* -------------Navbar ----------*/
+.logo{
+    width: 144px;
+    height: 56px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar {
+    margin-top: -17px;
+}
+.navbar ul li a{
+    color: white !important;
+    
+}
+.social i{
+    color: #ce0033;
+}
+
+.buttons{
+    position: relative;
+  
+    margin-top: -64px;
+    text-align: center;
+}
+.buttons button{
+    text-transform: uppercase;
+}
+/*------------Section One  ----------*/
+#intro{
+    background-image: url("../image/IMG_20200217_152146_edited.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro-text{
+    width: 54%;
+    height: 100%;
+    background-color: black;
+    opacity: .7;
+    padding-left: 33px;
+    padding-top: 75px;
+}
+.pédagogie h1{
+    text-align: center;
+}
+.postuler{
+    text-transform: uppercase;
+    padding-left: 46px !important;
+    padding-right: 50px !important;
+}
+.intro-text h4{
+    color: white;
+    font-size: 31px;
+    letter-spacing: 6px;
+}
+.intro-text p{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 33px;
+}
+.intro-text h1{
+    font-size: 68px;
+    color: white;
+    letter-spacing: 7px;
+}
+.pédagogie p i{
+    color: #ce0033;
+    font-size: 22px;
+    font-weight: bold;
+}
+.tilte span{
+    border-bottom: 4px solid #ce0033 ;
+}
+.title{
+    font-weight: 900;
+}
+/*----------section three  -----*/
+.ambitions h1 i{
+    color: #ce0033;
+    font-size: 42px;
+    font-weight: 900;
+}
+.ambitions .card-body i{
+    text-align: center !important;
+    color: #ce0033;
+    font-size: 42px;
+    font-weight: 900;
+}
+.ambitions .card-1{
+    box-shadow: 0 1px 19px rgb(0 0 0 / 60%);
+}
+.ambitions .card-2{
+    margin-top: 38px;
+    box-shadow: 0 1px 19px rgb(0 0 0 / 60%);
+}
+.ambitions .card-3{
+    margin-top: 77px;
+    box-shadow: 0 1px 19px rgb(0 0 0 / 60%);
+}
+.ambitions .card-4{
+    margin-top: 117px;
+    box-shadow: 0 1px 19px rgb(0 0 0 / 60%);
+}
+.full-stack{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+.para-one{
+    color: rgb(115, 119, 127);
+}
+.para-two ,.list-group-flush i{
+    color: #ce0033;
+}
+.liens a{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+}
+.admission i{
+    color: #ce0033;
+}
+.prix-formation{
+    line-height: 45px;
+}
+.newsletter{
+  
+    background-color: #ce0033;
+    color: white;
+}
