@@ -192,3 +192,25 @@ color: white;
     background-color: #ce0033;
     color: white;
 }
+/*-------------Footer  ----------------*/
+footer{
+    background-color: black;
+}
+.para-footer{
+    font-size: 14px;
+    line-height: 23px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+footer ul li {
+    list-style-type: none;  
+}
+.infos{
+    line-height: 10px;
+}
+footer ul{
+    line-height: 30px;
+}
