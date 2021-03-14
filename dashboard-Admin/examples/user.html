@@ -234,29 +234,23 @@ The above copyright notice and this permission notice shall be included in all c
                 <div class="card">
                   <div class="card-header card-header-primary">
                     <h4 class="card-title">Ajouter un apprenant</h4>
-                    <p class="card-category">Complete your profile</p>
+                    <p class="card-category">Completer leur profile</p>
                   </div>
                   <div class="card-body">
                     <form>
                       <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                           <div class="form-group">
                             <label class="bmd-label-floating"
-                              >Company (disabled)</label
+                              >Photo apprenant</label
                             >
-                            <input type="text" class="form-control" disabled />
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="form-group">
-                            <label class="bmd-label-floating">Username</label>
                             <input type="text" class="form-control" />
                           </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                           <div class="form-group">
-                            <label class="bmd-label-floating"
-                              >Email address</label
+                            <label class="bmd-label-floating">
+                              addresse mail</label
                             >
                             <input type="email" class="form-control" />
                           </div>
@@ -265,13 +259,13 @@ The above copyright notice and this permission notice shall be included in all c
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
-                            <label class="bmd-label-floating">Fist Name</label>
+                            <label class="bmd-label-floating">Nom</label>
                             <input type="text" class="form-control" />
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
-                            <label class="bmd-label-floating">Last Name</label>
+                            <label class="bmd-label-floating">Prénom</label>
                             <input type="text" class="form-control" />
                           </div>
                         </div>
@@ -279,7 +273,7 @@ The above copyright notice and this permission notice shall be included in all c
                       <div class="row">
                         <div class="col-md-12">
                           <div class="form-group">
-                            <label class="bmd-label-floating">Adress</label>
+                            <label class="bmd-label-floating">Addresse</label>
                             <input type="text" class="form-control" />
                           </div>
                         </div>
@@ -287,20 +281,20 @@ The above copyright notice and this permission notice shall be included in all c
                       <div class="row">
                         <div class="col-md-4">
                           <div class="form-group">
-                            <label class="bmd-label-floating">City</label>
+                            <label class="bmd-label-floating">Région</label>
                             <input type="text" class="form-control" />
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="form-group">
-                            <label class="bmd-label-floating">Country</label>
+                            <label class="bmd-label-floating">Age</label>
                             <input type="text" class="form-control" />
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="form-group">
-                            <label class="bmd-label-floating"
-                              >Postal Code</label
+                            <label class="bmd-label-floating">
+                              Code Postal</label
                             >
                             <input type="text" class="form-control" />
                           </div>
@@ -309,12 +303,12 @@ The above copyright notice and this permission notice shall be included in all c
                       <div class="row">
                         <div class="col-md-12">
                           <div class="form-group">
-                            <label>About Me</label>
+                            <label>description</label>
                             <div class="form-group">
                               <label class="bmd-label-floating">
-                                Lamborghini Mercy, Your chick she so thirsty,
-                                I'm in that two seat Lambo.</label
-                              >
+                                les cordonnées d'un nouvel apprenant chez
+                                simplon
+                              </label>
                               <textarea
                                 class="form-control"
                                 rows="5"
@@ -324,7 +318,7 @@ The above copyright notice and this permission notice shall be included in all c
                         </div>
                       </div>
                       <button type="submit" class="btn btn-primary pull-right">
-                        Update Profile
+                        Ajouter
                       </button>
                       <div class="clearfix"></div>
                     </form>
@@ -335,21 +329,178 @@ The above copyright notice and this permission notice shall be included in all c
                 <div class="card card-profile">
                   <div class="card-avatar">
                     <a href="javascript:;">
-                      <img class="img" src="../assets/img/faces/marc.jpg" />
+                      <img class="img" src="../../image/sara.jpg" />
                     </a>
                   </div>
                   <div class="card-body">
-                    <h6 class="card-category text-gray">CEO / Co-Founder</h6>
-                    <h4 class="card-title">Alec Thompson</h4>
+                    <h6 class="card-category text-gray">apprenante</h6>
+                    <h4 class="card-title">Srah Soltani</h4>
                     <p class="card-description">
-                      Don't be scared of the truth because we need to restart
-                      the human foundation in truth And I love you like Kanye
-                      loves Kanye I love Rick Owens’ bed design but the back
-                      is...
+                      Sarah Soltani de jendouba Tunisienne 26 ans ingénieur en
+                      réseau et télécommunications
                     </p>
                     <a href="javascript:;" class="btn btn-primary btn-round"
-                      >Follow</a
+                      >Supprimer</a
                     >
+
+                    <!-------------------------------------Start  --------------------------->
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-round"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      <a href="javascript:;">Modifier</a>
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              Modifier les cordonnées
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <!----------Part 1  -->
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="mb-3">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="photo apprennant"
+                                  />
+                                </div>
+                              </div>
+
+                              <div class="col-md-6">
+                                <div class="mb-3">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Addresse mail"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <!----------End Part 1  -->
+                            <!------------Part two  ----------->
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="mb-3">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Nom"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="mb-3">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Prénom"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <!-------------Part Two  ----------->
+                            <!-------------- Part Four-------- ---->
+                            <div class="col-md-12">
+                              <div class="mb-3">
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  id="exampleFormControlInput1"
+                                  placeholder="Code Postal"
+                                />
+                              </div>
+                            </div>
+                            <!---------------Part Four  ----------->
+                            <!-------------Part Three  ----------->
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="mb-3">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Région"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="mb-3">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Age"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="mb-3">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleFormControlInput1"
+                                    placeholder="Code Postal"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <!-------------Part Three  ----------->
+                            <!-------------- Part Four-------- ---->
+                            <div class="col-md-12">
+                              <div class="mb-3">
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  id="exampleFormControlInput1"
+                                  placeholder="Code Postal"
+                                />
+                              </div>
+                            </div>
+                            <!---------------Part Four  ----------->
+                            <!--   -->
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-bs-dismiss="modal"
+                            >
+                              Annuler
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                              Sauvegarder
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-------------------------------------------Modal  ---------------------->
                   </div>
                 </div>
               </div>
@@ -497,6 +648,7 @@ The above copyright notice and this permission notice shall be included in all c
       </div>
     </div>
     <!--   Core JS Files   -->
+    <script src="../../Bootstrap/bootstrap.js"></script>
     <script src="../assets/js/core/jquery.min.js"></script>
     <script src="../assets/js/core/popper.min.js"></script>
     <script src="../assets/js/core/bootstrap-material-design.min.js"></script>

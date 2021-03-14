@@ -1,39 +1,83 @@
 /*---------------------**********************Page-Contact-Simplon-Prod********************-------------*/
-/*---------------------------------------Form contact--------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
 body{
     font-family: 'Nunito', sans-serif;
     background: #f1f5f8 !important;
 }
-.list li {
-list-style-type: none;
-color: white;
-}
-.social-media{
-    list-style-type: none;
 
-}
-.top-nav{
-    background-color: black;
-}
-.logo{
-    width: 144px;
-    height: 56px;
-}
-.navbar{
-    background-color: black;
-}
-.navbar {
-    margin-top: -17px;
-}
-.navbar ul li a{
-    color: white !important;
+.list li {
+    list-style-type: none;
+    color: white;
+    }
+    .social-media{
+        list-style-type: none;
     
-}
-.social i{
-    color: #ce0033;
-}
- 
+    }
+    .top-nav{
+        background-color: #F7F7F7;
+    }
+    .top-nav ul li {
+        color: black;
+        
+    }
+    .toggler{
+        color: #ce0033;
+    }
+    @media screen and (max-width: 400px) {
+       .list .social{
+           margin-bottom: 20px;
+           
+       }
+       .clock{
+           margin-top:-10px !important;
+       }
+      .email {
+       text-align: center;
+      }
+     
+     
+    .buttons .btn-simplon{
+        padding-left: 1rem !important;
+    }
+    .apropos{
+        text-align: center;
+    }
+    .infos {
+        margin-left: 11px !important;
+    }
+    .opacity{    height: 92vh !important;}
+    .experience{
+        height: 92vh !important;
+        margin-left: 21px !important;
+    }
+    } 
+    
+    /* -------------Navbar ----------*/
+    .logo{
+        width: 155px;
+        height: 60px;
+    }
+    .navbar{
+        background-color: black;
+    }
+    .navbar {
+        margin-top: -17px;
+    }
+    .navbar ul li a{
+        color: white !important;
+        font-size: 17px;
+    }
+     .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #ce0033 !important;
+        border-bottom: #ce0033 1px solid !important;
+    }
+    .dropdown .dropdown-item:hover{
+        color: #ce0033 !important;
+        
+    }
+    .social i{
+        color: #ce0033;
+    }
 /*-----------------------------------------------------------------------*/
 .register{
     /*background: -webkit-linear-gradient(left, #800000, #d10c0cb9);*/
@@ -168,3 +212,58 @@ color: white;
 
 
 /*----------------------------------------------------------------------------*/
+ /*--------Footer ------ */
+  
+ .newsletter{
+  
+    background-color: #ce0033;
+    color: white;
+}
+/*-------------Footer  ----------------*/
+footer{
+    background-color: black;
+}
+.para-footer{
+    font-size: 14px;
+    line-height: 23px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+footer ul li {
+    list-style-type: none;  
+}
+.infoos{
+    line-height: 10px;
+}
+.infoos i{
+    color: #ce0033;
+}
+.btn-footer{
+    border: #ce0033 !important;
+    border-left: none !important;
+}
+footer ul{
+    line-height: 30px;
+}
+footer ul li a:hover{
+    color: #ce0033;
+    text-decoration: underline;
+}
+.title-footer{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.suivez-nous{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 8px;
+}
+.back i{
+    border: 1px solid white;
+    color: #ce0033;
+    padding: 8px;
+    border-radius: 18px;
+    
+}
