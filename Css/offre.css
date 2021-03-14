@@ -18,6 +18,10 @@ color: white;
     color: black;
     
 }
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #ce0033 !important;
+    border-bottom: #ce0033 1px solid !important;
+}
 .toggler{
     color: #ce0033;
 }
@@ -62,8 +66,8 @@ color: white;
 
 /* -------------Navbar ----------*/
 .logo{
-    width: 144px;
-    height: 56px;
+    width: 155px;
+    height: 60px;
 }
 .navbar{
     background-color: black;
@@ -73,6 +77,10 @@ color: white;
 }
 .navbar ul li a{
     color: white !important;
+    font-size: 17px;
+}
+.dropdown .dropdown-item:hover{
+    color: #ce0033 !important;
     
 }
 .social i{
@@ -211,6 +219,32 @@ footer ul li {
 .infos{
     line-height: 10px;
 }
+.infos i{
+    color: #ce0033;
+}
+.btn-footer{
+    border: #ce0033 !important;
+    border-left: none !important;
+}
 footer ul{
     line-height: 30px;
+}
+footer ul li a:hover{
+    color: #ce0033;
+    text-decoration: underline;
+}
+.title-footer{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.suivez-nous{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 8px;
+}
+.back i{
+    border: 1px solid white;
+    color: #ce0033;
+    padding: 8px;
+    border-radius: 18px;
+    
 }

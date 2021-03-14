@@ -32,18 +32,8 @@ color: white;
   .email {
    text-align: center;
   }
-  .image-1{
-    height: 380px;
  
-    margin-top: 20px !important;
-  }
-  .image-1 img{
-      width: 200%;
-      height: 80vh !important;
-      margin-top: -163px;
-      padding-right: -20px;
-      margin-right: 73px;
-}
+ 
 .buttons .btn-simplon{
     padding-left: 1rem !important;
 }
@@ -62,8 +52,8 @@ color: white;
 
 /* -------------Navbar ----------*/
 .logo{
-    width: 144px;
-    height: 56px;
+    width: 155px;
+    height: 60px;
 }
 .navbar{
     background-color: black;
@@ -73,6 +63,14 @@ color: white;
 }
 .navbar ul li a{
     color: white !important;
+    font-size: 17px;
+}
+ .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #ce0033 !important;
+    border-bottom: #ce0033 1px solid !important;
+}
+.dropdown .dropdown-item:hover{
+    color: #ce0033 !important;
     
 }
 .social i{
@@ -105,22 +103,15 @@ color: white;
 }
 /*------------Section 3  -------------------*/
 .image-1{
-
-    height: 380px;
-    border: 9px solid crimson;
-    padding: -6px;
+    height: 340px;
+    border-top-right-radius: 46px 50px;
+    border: 1px solid crimson;
+    border-bottom-left-radius: 50px 38px;
+    padding: 35px;
     margin-top: 20px !important;
+  }
 
-}
 
-.image-1 img{
-    height: 80vh !important;
-
-width: 138%;
-margin-top: -163px;
-padding-right: -20px;
-margin-right: 73px;
-}
 .title span{
     border-bottom: 4px solid #ce0033 ;
 }
@@ -167,29 +158,14 @@ margin-right: 73px;
 background-color: #ce0033 ;
 }
 /*-------------------section before footer  ------------------*/
-.part-one h1{
-    font-size: 20px;
-    font-weight: 900;
-    padding: 0 0 20px;
-    color: #000;
+.decouverte a{
+    text-decoration: none;
+    color: #ce0033;
 }
-.partt-one{
-    background-color: white;
-    padding: 59px 152px 59px 44px;
-   
-}
-.partt-two{
-    background-color: #ce0033;
+.decouverte a:hover{
     color: white;
-    padding: 59px 152px 59px 44px;
 }
-.grid{
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 600px 600px;
-    grid-gap: 30px;
 
-}
 /*--------------- Hover equipe -----------*/
 .hovereffect {
     width: 82%;
@@ -233,8 +209,8 @@ background-color: #ce0033 ;
     text-transform: uppercase;
     color: #fff;
     position: relative;
-    margin-top: 155px !important;
-    font-size: 22px;
+    margin-top: 198px !important;
+    font-size: 20px;
     background-color: transparent;
  
     text-align: left;
@@ -303,4 +279,114 @@ background-color: #ce0033 ;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
+  /*--------Footer ------ */
   
+.newsletter{
+  
+    background-color: #ce0033;
+    color: white;
+}
+/*-------------Footer  ----------------*/
+footer{
+    background-color: black;
+}
+.para-footer{
+    font-size: 14px;
+    line-height: 23px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+footer ul li {
+    list-style-type: none;  
+}
+.infoos{
+    line-height: 10px;
+}
+.infoos i{
+    color: #ce0033;
+}
+.btn-footer{
+    border: #ce0033 !important;
+    border-left: none !important;
+}
+footer ul{
+    line-height: 30px;
+}
+footer ul li a:hover{
+    color: #ce0033;
+    text-decoration: underline;
+}
+.title-footer{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.suivez-nous{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 8px;
+}
+.back i{
+    border: 1px solid white;
+    color: #ce0033;
+    padding: 8px;
+    border-radius: 18px;
+    
+}
+.equipe-simpl{
+    margin-bottom: -132px;
+}
+/*----------------Carrousel Partenaire ------------*/
+@-webkit-keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+  }
+  .slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    height: 100px;
+    width: 250px;
+  }
